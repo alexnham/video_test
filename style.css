@@ -1,0 +1,30 @@
+
+html {
+    display: block;
+}
+:root {
+    view-transition-name: root;
+}
+
+video {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+body:-webkit-full-page-media {
+    background-color: rgb(0, 0, 0);
+}
